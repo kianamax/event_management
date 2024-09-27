@@ -113,7 +113,7 @@
                 <input type="email" id="email" name="email" placeholder="Email" class="input-field" required>
                 <select id="usertype" name="usertype" class="input-field" required>
                     <option value="event_organiser">Event Organiser</option>
-                    <option value="Attendee">Attendee</option>
+                    <option value="attendee">Attendee</option>
                     <option value="admin">Admin</option>
                 </select>
                 <input type="text" id="town" name="town" placeholder="Town" class="input-field" required>
