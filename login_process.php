@@ -32,10 +32,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             
             switch ($row["user_type"]) {
                 case "event_organiser":
-                    header("Location: organiser_dashboard.php");
+                    header("Location: organizer.php");
                     break;
                 case "attendee":
-                    header("Location: attendee_dashboard.php");
+                    header("Location: attendee_events.php");
                     break;
                 case "admin":
                     header("Location: admin_dashboard.php");
